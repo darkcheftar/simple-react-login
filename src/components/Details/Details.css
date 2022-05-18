@@ -1,0 +1,27 @@
+.details-section{
+    display: grid;
+    grid-template-areas: 'nav nav' 'sidebar form';
+    grid-template-rows:  50px auto;
+    grid-template-columns: 300px auto;
+    height: 100vh;
+    width: 100vw;
+}
+.details-nav{
+    width: 100vw;
+    background-color: greenyellow;
+    display: grid;
+    grid-template-columns: 3fr .5fr .5fr;
+}
+.details-sidebar{
+    background-color: #191919;
+    color: #fff;
+}
+.details-form{
+    background-color: bisque;
+    text-align: center;
+    margin: 10px;
+}
+.details-form-fields{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
